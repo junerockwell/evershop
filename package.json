@@ -18,5 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "@evershop/evershop": "^1.2.1"
-  }
+  },
+  "workspaces": [
+    "extensions/*" 
+  ]
 }

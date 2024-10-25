@@ -1,0 +1,69 @@
+{
+  "shop": {
+    "currency": "USD",
+    "language": "en",
+    "weightUnit": "kg"
+  },
+  "catalog": {
+    "product": {
+      "image": {
+        "thumbnail": {
+          "width": 100,
+          "height": 100
+        },
+        "listing": {
+          "width": 300,
+          "height": 300
+        },
+        "single": {
+          "width": 500,
+          "height": 500
+        }
+      }
+    },
+    "showOutOfStockProduct": true
+  },
+  "pricing": {
+    "rounding": "round",
+    "precision": 2,
+    "tax": {
+      "rounding": "round",
+      "precision": 2,
+      "round_level": "unit",
+      "price_including_tax": true
+    }
+  },
+  "themeConfig": {
+    // "logo": {
+    //   "alt": "My Evershop Shop",
+    //   "src": "/logo.png",
+    //   "width": 100,
+    //   "height": 100
+    // },
+    // "headTags": {
+    //   "links": [],
+    //   "metas": [],
+    //   "scripts": []
+    // },
+    "headTags": {
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/favicon.ico"
+        }
+      ]
+    },
+    "copyRight": "© 2024 June Rockwell. All Rights Reserved."
+  }
+  // "system": {
+  //   "theme": "friday",
+  //   "extensions": [
+  //     {
+  //       "name": "productComment",
+  //       "resolve": "extensions/productComment",
+  //       "enabled": true,
+  //       "priority": 10
+  //     }
+  //   ]
+  // }
+}
